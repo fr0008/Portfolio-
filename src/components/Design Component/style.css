@@ -1,0 +1,57 @@
+.orange-background {
+    background-image: url(https://img.freepik.com/free-photo/orange-wall-with-cracks-peeling-paint_1258-28309.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.design-containers {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: -35%;
+    left: 5%;
+}
+
+.high-quality {
+    width: 32%;
+    margin: 1.33%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px;
+    height: 480px;
+}
+
+.high-quality h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.high-quality h2 {
+    color: rgba(0, 0, 255, 0.736);
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.high-quality p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.high-quality button {
+    border: 0;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    width: 105px;
+    margin-top: 40px;
+    padding: 10px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-align: center;
+}

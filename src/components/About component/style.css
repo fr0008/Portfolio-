@@ -1,0 +1,83 @@
+.about-content-component {
+    width: 80%;
+    margin: 40px auto;
+    padding: 50px 78px;
+    text-align: center;
+}
+
+.about-content-component h2 {
+    font-size: 40px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-content-component h1 {
+    color: orange;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.about-content-component p {
+    font-size: 30px;
+    color: white;
+    line-height: 45px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.about-content-component img {
+    border-radius: 300px;
+    border: 8px solid orange;
+    margin-top: 60px;
+    width: 35%;
+    height: 330px;
+}
+
+.circle-information-components {
+    display: flex;
+    width: 70%;
+    margin: 90px auto;
+}
+
+.circle-information-components div {
+    width: 40%;
+    margin: 2%;
+    height: 200px;
+    border-radius: 500px;
+    background-color: white;
+    transition: 0.3;
+    margin-bottom: 130px;
+}
+
+.circle-information-components h2 {
+    padding: 20px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.resume-circle {
+    transition: 0.3s;
+}
+
+.resume-circle:hover {
+    border: 4px solid rgba(0, 0, 255, 0.665);
+    margin-bottom: 45px;
+}
+
+.resume {
+    color: blue;
+}
+
+.skills {
+    color: orange;
+}
+
+.skills-circle {
+    transition: 0.3s;
+}
+
+.skills-circle:hover {
+    border: 4px solid rgba(255, 166, 0, 0.766);
+    margin-bottom: 45px;
+}
